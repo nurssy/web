@@ -1,0 +1,72 @@
+body {
+  background-image: url(images/pink.jpeg);
+  background-size: cover;
+}
+
+#signup {
+  position: relative;
+  width: 30%;
+  height: 15%;
+  background-color: rgb(255, 185, 203);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: 3px solid #612b2b;
+  border-radius: 10px;
+  margin-top: 7%;
+  margin-bottom: 100px;
+  padding: 20px;
+}
+
+input[type=text]:focus {
+  background-color: rgb(254, 238, 237);
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+  background-color: rgb(254, 224, 226);
+  border: none;
+  color: rgb(33, 25, 25);
+  padding: 10px 40px;
+  text-decoration: none;
+  margin: 10px 15px 15px 15px;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "poppins", sans-serif, Impact;
+  color: #612b2b;
+  margin-top: 50px;
+}
+
+#input-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#input-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #612b2b;
+}
+
+#input-box label {
+  font-size: 20px;
+  color: #612b2b;
+  margin: 5px;
+}
+
+#ion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 150px;
+}/*# sourceMappingURL=style.css.map */
